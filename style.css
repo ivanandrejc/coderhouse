@@ -2,4 +2,20 @@
 *{
     font-family: 'Be Vietnam Pro', sans-serif;
 }
-  
+  footer{
+    color: yellow;
+    background-color: black;
+    text-align: center;
+    
+  }
+ .iconos{
+    position: relative; left: 600px;
+ }
+ footer p {
+    position: relative; left: 375px; bottom: -75px;
+   
+ } 
+
+ footer h1{
+    position: relative; bottom: -85px;
+ }
