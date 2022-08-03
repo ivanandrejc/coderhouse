@@ -1,0 +1,31 @@
+@mixin medias ($breakpoint){
+    @if $breakpoint == mobile{
+        @media (min-width: 320px){
+            @content;
+        }
+    }
+   @if $breakpoint == tablet {
+        @media (min-width: 600px){
+            @content;
+    }
+    
+   }     
+   @if $breakpoint == desktop {
+        @media (min-width: 1200px){
+            @content;
+    }
+    
+   }
+}
+
+footer img{
+    @include medias(mobile){
+    width: 30px;
+    } 
+    @include medias(tablet){
+        width: 55px;
+    } 
+     @include medias(desktop){
+        width: 75px;
+    } 
+  }
