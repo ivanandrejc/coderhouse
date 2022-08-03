@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+   
+}
+html{
+   width: 100%;
+}
+ footer img{
+   width: 30px;
+ }
+
+ @media only screen and (min-width: 600px) {
+    footer img{
+        width: 55px;
+      }
+}
+
+@media only screen and (min-width: 900px) {
+    footer img{
+        width: 75px;
+      }
+}
+
+    /*# sourceMappingURL=style.css.map */
