@@ -15,4 +15,24 @@
   }
 }
 
+main {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.contacto {
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.contacto h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
 /*# sourceMappingURL=main.css.map */

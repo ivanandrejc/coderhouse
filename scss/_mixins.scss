@@ -18,7 +18,8 @@
    }
 }
 
-footer img{
+footer {
+    img{
     @include medias(mobile){
     width: 30px;
     } 
@@ -28,4 +29,5 @@ footer img{
      @include medias(desktop){
         width: 75px;
     } 
+    }   
   }
