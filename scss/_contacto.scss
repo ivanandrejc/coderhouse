@@ -1,9 +1,13 @@
+body{
+    background-color: $maincolor;
+}
 .contacto{
     width: 450px;
     margin: auto;
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
+    color: $letras;
     h2{
         
         text-align: center;
@@ -11,4 +15,13 @@
         font-size: 30px;
         margin-bottom: 20px;
     }
+        input, textarea{
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 7px;
+        }
+            #enviar{
+                background-color: $letras;
+                color: $maincolor;
+            }
 }

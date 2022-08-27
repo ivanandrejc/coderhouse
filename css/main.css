@@ -15,10 +15,47 @@
   }
 }
 
+@media (min-width: 320px) {
+  .contacto {
+    width: 50%;
+  }
+}
+@media (min-width: 600px) {
+  .contacto {
+    width: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  .contacto {
+    width: 100%;
+  }
+}
+
 main {
   text-align: center;
   background-color: black;
   color: white;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  padding: 5px;
+}
+
+.aerobic {
+  width: 50%;
+  display: flex;
+}
+
+#horario {
+  height: 800px;
+}
+
+body {
+  background-color: black;
 }
 
 .contacto {
@@ -27,12 +64,35 @@ main {
   padding: 10px 20px;
   box-sizing: border-box;
   margin-top: 20px;
+  color: white;
 }
 .contacto h2 {
   text-align: center;
   margin: 0;
   font-size: 30px;
   margin-bottom: 20px;
+}
+.contacto input, .contacto textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+}
+.contacto #enviar {
+  background-color: white;
+  color: black;
+}
+
+.promociones ul {
+  list-style: none;
+}
+.promociones li {
+  font-size: 30px;
+  padding: 15px;
+  margin: 10px;
+}
+
+h2 {
+  padding: 110px;
 }
 
 /*# sourceMappingURL=main.css.map */

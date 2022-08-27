@@ -31,3 +31,14 @@ footer {
     } 
     }   
   }
+  .contacto{
+    @include medias(mobile){
+        width: 50%;
+    }
+    @include medias(tablet){
+        width: 75%;
+    }
+    @include medias(desktop){
+        width: 100%;
+    }
+  }
