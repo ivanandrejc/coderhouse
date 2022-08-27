@@ -1,2 +1,16 @@
 $grid-columns:      7;
 $grid-gutter-width: 1.5rem;
+
+.table{
+    color: white;
+    text-align: center;
+    
+        .titulo{
+            background-color: crimson;
+            
+        }
+}
+
+#horarios{
+    text-align: center;
+}

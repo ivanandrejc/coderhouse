@@ -91,8 +91,21 @@ body {
   margin: 10px;
 }
 
-h2 {
+#promo {
+  text-align: center;
   padding: 110px;
+}
+
+.table {
+  color: white;
+  text-align: center;
+}
+.table .titulo {
+  background-color: crimson;
+}
+
+#horarios {
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
