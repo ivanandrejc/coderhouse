@@ -42,3 +42,31 @@ footer {
         width: 100%;
     }
   }
+    #portada{
+        @include medias(mobile){
+            height: 700px;
+        }
+        @include medias(tablet){
+            height: 700px;
+        }
+        @include medias(desktop){
+            height: auto;
+        }
+    }
+    
+ 
+  #principal{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .footer{
+    margin-top: auto;
+  }
+
+  #bienvenida{
+    padding:50px;
+  }
+
+  

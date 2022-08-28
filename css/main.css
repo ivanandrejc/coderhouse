@@ -31,6 +31,36 @@
   }
 }
 
+@media (min-width: 320px) {
+  #portada {
+    height: 700px;
+  }
+}
+@media (min-width: 600px) {
+  #portada {
+    height: 700px;
+  }
+}
+@media (min-width: 1200px) {
+  #portada {
+    height: auto;
+  }
+}
+
+#principal {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+#bienvenida {
+  padding: 50px;
+}
+
 main {
   text-align: center;
   background-color: black;
@@ -50,21 +80,24 @@ h2 {
   display: flex;
 }
 
-#horario {
-  height: 800px;
-}
-
 body {
   background-color: black;
 }
 
-.contacto {
-  width: 450px;
-  margin: auto;
-  padding: 10px 20px;
-  box-sizing: border-box;
-  margin-top: 20px;
-  color: white;
+@media (min-width: 320px) {
+  .contacto {
+    width: 325px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    color: white;
+  }
+}
+@media (min-width: 1200px) {
+  .contacto {
+    width: 450px;
+  }
 }
 .contacto h2 {
   text-align: center;
