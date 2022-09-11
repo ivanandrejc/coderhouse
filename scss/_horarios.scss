@@ -1,16 +1,23 @@
-$grid-columns:      7;
-$grid-gutter-width: 1.5rem;
-
-.table{
-    color: white;
-    text-align: center;
-    
-        .titulo{
-            background-color: crimson;
-            
-        }
+table{
+    width: 100%;
+    border-collapse: collapse;
 }
 
+td{
+    background-color: black;
+    color: white;
+}
+th { 
+    background: red; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+}
 #horarios{
     text-align: center;
 }
+

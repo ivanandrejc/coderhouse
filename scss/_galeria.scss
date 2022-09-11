@@ -1,4 +1,4 @@
-main{
+/*main{
     text-align: center;
     background-color: $maincolor;
     color: $letras;
@@ -12,7 +12,94 @@ h2{
 .aerobic{
     width: 50%;
     display: flex;
+}*/
+
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 500px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+.gallery-item{
+    position: relative;
+}
+.gallery-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-title{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1));
+    width: 100%;
+    margin: 0;
+}
+.gallery-item:nth-child(1){
+    grid-column-start: span 2;
+    grid-row-start: span 1.5;
 }
 
+.gallery-container{
+    @include medias(mobile){
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    @include medias(tablet){
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    @include medias(desktop){
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 500px;
+        padding: 20px;
+        grid-gap: 10px;
+    }
+}
+.gallery-item:nth-child(1){
+    @include medias(mobile){
+        grid-column-start: span 3;
+        grid-row-start: span 1;
+    }
+    @include medias(tablet){
+        grid-column-start: span 3;
+        grid-row-start: span 1;
+    }
+    @include medias (desktop){
+        grid-column-start: span 2;
+        grid-row-start: span 1.5;
+    }
+}
 
+.gallery-item:nth-child(2){
+    @include medias(mobile){
+        grid-column-start: span 3;
+        grid-row-start: span 1;
+    }
+    @include medias(tablet){
+        grid-column-start: span 3;
+        grid-row-start: span 1;
+    }
+    @include medias (desktop){
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    }
+}
 
+.gallery-item:nth-child(3){
+    @include medias(mobile){
+        grid-column-start: span 3;
+        grid-row-start: span 1;
+    }
+    @include medias(tablet){
+        grid-column-start: span 3;
+        grid-row-start: span 1;
+    }
+    @include medias (desktop){
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    }
+}
